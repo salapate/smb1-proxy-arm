@@ -1,4 +1,4 @@
-FROM dperson/samba:amd64
+FROM dperson/samba:armhf
 
 RUN apk add --no-cache --update --upgrade \
     cifs-utils \
